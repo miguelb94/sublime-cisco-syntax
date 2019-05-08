@@ -18,11 +18,11 @@
 		{ "match": "any",
 			"name": "string.unquoted.cisco"
 		},
-		{ "match": "deny ",
+		{ "match": "deny",
 			"name": "support.constant.cisco"
 		},
 
-		{ "match": "permit ",
+		{ "match": "permit",
 			"name": "constant.character.escape.cisco"
 		},
 		{ "match": "object-group",
@@ -48,6 +48,26 @@
 		},
 
 		{ "match": "crypto",
+			"name": "support.class.cisco"
+		},
+		
+		{ "match": "configure terminal",
+			"name": "support.class.cisco"
+		},
+		
+		{ "match": "interface",
+			"name": "support.class.cisco"
+		},
+		
+		{ "match": "gigabitethernet",
+			"name": "support.class.cisco"
+		},
+		
+		{ "match": "fastethernet",
+			"name": "support.class.cisco"
+		},
+
+		{ "match": "serial",
 			"name": "support.class.cisco"
 		},
 
